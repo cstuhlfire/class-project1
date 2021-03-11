@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+    
+<body>
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+    
+    <!-- Create form -->
+    <form>
+        <form action="/action_page.php">
+            <!-- First name -->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <br>
+            
+            <!-- Last name -->
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br>
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <br>
+
+            <!-- Subject -->
+            <label for="subject">Subject</label>
+            <br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <input type="submit" value="Submit">
+    </form>
+  
+    <footer>
+        <p>My Company<br>
+        <a href="mailto:myCompany@gmail.com">myCompany@gmail.com</a></p>
+      </footer>
+</body>
+
+</html>
